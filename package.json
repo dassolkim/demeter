@@ -1,0 +1,36 @@
+{
+  "name": "demeter",
+  "version": "1.0.0",
+  "description": "An Automatic Framework for Data Migration in Open Data Lakes",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dassolkim/Demeter.git"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "fast-xml-parser": "^4.0.7",
+    "n3": "^1.16.0",
+    "pg": "^8.7.3",
+    "xml-js": "^1.6.11"
+  },
+  "keywords": [
+    "open-data",
+    "table",
+    "migration",
+    "data",
+    "harvesting"
+  ],
+  "author": "dasol kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dassolkim/Demeter/issues"
+  },
+  "homepage": "https://github.com/dassolkim/Demeter#readme"
+}
