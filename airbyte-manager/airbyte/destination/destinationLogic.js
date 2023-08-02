@@ -63,8 +63,8 @@ async function validateLogic(destinationInfo, delDestination) {
             if (getDestinationResult.destinationId == destinationId){
                 check = true
                 console.log(getDestinationResult)
-                console.log("getDestination succeeded")       
-                if (delDestination == true){    
+                console.log("getDestination succeeded")
+                if (delDestination == true){
                     const deleteDestinationResult = await deleteDestination(defaultUrl, destinationId)
                     if (deleteDestinationResult == true){
                         console.log("deleteDestination succeeded")
@@ -77,7 +77,7 @@ async function validateLogic(destinationInfo, delDestination) {
         } else {
             check = false
             console.log("createDestination failed")
-        }    
+        }
     }
     if (check == true && delDestination == true){
         return true
@@ -101,7 +101,7 @@ async function createLogic(destinationInfo) {
                 console.log("createDestination succeeded")
             }
             return destinationId
-        } else { 
+        } else {
             console.log("createDestination failed")
             return null
         }
@@ -126,7 +126,7 @@ async function removeLogic(destinationInfo, destinationId) {
             } else {
                 console.log("deleteDestinatoin failed")
             }
-        } else { 
+        } else {
             console.log("getDestination failed")
         }
         return false
