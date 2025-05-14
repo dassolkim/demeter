@@ -1,5 +1,10 @@
 # Demeter: An Automatic Framework for Data Migration in Open Data Lakes
 
+Goal: Integrating Internet-scale open data into tables
+
+Paper link: Dasol Kim, Jiwoo Han, Siwoon Son, Myeong-Seon Gil, Yang-Sae Moon, and Heesun Won, "Demeter: An automatic framework for data migration in open data lakes," _Software: Practice and Experience, Vol. 54, Issue 5, May 2024. (https://onlinelibrary.wiley.com/doi/full/10.1002/spe.3294)
+
+
 ## Components
 * Open-data manager
 * Airbyte-manager
@@ -18,3 +23,15 @@ Existing studies for table migration have three problems below.
 3. scale limitation
 
 We present a novel automation framework, called Demeter, which solves three problems inherent in ODL by expanding automation.
+
+## Quick start
+
+### Environment
+ - Node: above v.16.14.2
+ - PostgreSQL: v.14.2
+ - Airbyte: above v.0.39.5
+
+### Running
+1. Download this source (git clone)
+2. Execute npm install
+
